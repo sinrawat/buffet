@@ -1,0 +1,62 @@
+.Home {
+    font-family: 'Kanit', sans-serif;
+    background-color: #F1F1D4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.room-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* แสดง 4 รูปต่อแถว */
+    gap: 10px;
+}
+
+.room-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.room-details {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.room-details h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.room-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.room-details ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-green {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-green:hover {
+    background-color: #218838;
+}
