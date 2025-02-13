@@ -31,7 +31,7 @@ function App() {
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="Room">
-                  <span class="small-text">Room</span> 
+                  <span class="small-text">Meet</span> 
                   </a>
                 </li>
                 <li class="nav-item">
@@ -46,7 +46,7 @@ function App() {
 
         {/* Define Routes */}
         <Routes>
-          <Route path="/buffet" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Room" element={<Room />} />
           <Route path="/Bill" element={<Bill />} />
         </Routes>

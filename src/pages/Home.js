@@ -11,13 +11,13 @@ const HomePage = () => {
       id: 1,
       name: 'โปรโมชั่น 1',
       description: 'เนื้อสัตว์และผักสดใหม่',
-      image: '../img/6147.jpg',
+      image: img2,
     },
     {
       id: 2,
       name: 'โปรโมชั่น 2',
       description: 'เซ็ตอาหารทะเลพิเศษ',
-      image: '../img/6147.jpg',
+      image: img3,
     },
    
   ];
