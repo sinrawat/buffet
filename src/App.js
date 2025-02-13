@@ -16,7 +16,7 @@ function App() {
         {/* Navigation Menu */}
         <nav class="navbar navbar-expand-lg custom-navbar">
           <div class="container-fluid">
-            <a class="navbar-brand" href="/"><img src={logo} alt="Logo" width="100"  />
+            <a class="navbar-brand" href="/buffet"><img src={logo} alt="Logo" width="100"  />
             <span class="ms-3 size">จิ๊กโก๋..ชาบู</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,11 +24,11 @@ function App() {
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
+                {/* <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="/">
                   <span class="small-text">Home</span>
                   </a>
-                </li>
+                </li> */}
                 <li class="nav-item">
                   <a class="nav-link" href="Room">
                   <span class="small-text">Meet</span> 
@@ -47,8 +47,8 @@ function App() {
         {/* Define Routes */}
         <Routes>
           <Route path="/buffet" element={<Home />} />
-          <Route path="/buffet/Room" element={<Room />} />
-          <Route path="/buffet/Bill" element={<Bill />} />
+          <Route path="/Room" element={<Room />} />
+          <Route path="/Bill" element={<Bill />} />
         </Routes>
       </div>
     </Router>
