@@ -1,62 +1,81 @@
-.Home {
-    font-family: 'Kanit', sans-serif;
-    background-color: #F1F1D4;
-    padding: 20px;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: white;
+.bill-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: auto;
+    background: #f8e4c9;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.room-gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* แสดง 4 รูปต่อแถว */
-    gap: 10px;
-}
-
-.room-gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.room-details {
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.room-details h4 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.room-details ul {
-    list-style: none;
-    padding: 0;
-}
-
-.room-details ul li {
-    padding: 5px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.btn-green {
-    display: inline-block;
-    padding: 10px 15px;
-    background-color: #28a745;
+.header {
+    text-align: center;
+    background: #a64527;
     color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
 }
 
-.btn-green:hover {
-    background-color: #218838;
+.bill-content {
+    text-align: center;
+    padding: 15px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #a64527;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #f4c095;
+}
+
+input[type='number'] {
+    width: 50px;
+    text-align: center;
+}
+
+.pay-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.pay-button:hover {
+    background: #218838;
+}
+span {
+    color: white;
+}
+.size {
+    font-size: 20;
+}
+.bg {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #DEC7A6;
 }

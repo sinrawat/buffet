@@ -1,11 +1,12 @@
 {
   "name": "test_react",
-  "homepage": "https://nxmfxnm.github.io/test_react_/",
+  "homepage": "https://nxmfxnm.github.io/hotel-25/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
+    "node": "^22.14.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",

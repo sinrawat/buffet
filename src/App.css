@@ -14,7 +14,7 @@
 }
 
 .custom-navbar {
-  background-color: #e0e0e0 !important;
+  background-color: #974837 !important;
 }
 
 
@@ -32,6 +32,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.bg nav {
+  background-color: #f78010;
 }
 
 @keyframes App-logo-spin {
