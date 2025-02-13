@@ -46,7 +46,7 @@ function App() {
 
         {/* Define Routes */}
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/buffet" element={<Home />} />
           <Route path="/Room" element={<Room />} />
           <Route path="/Bill" element={<Bill />} />
         </Routes>
